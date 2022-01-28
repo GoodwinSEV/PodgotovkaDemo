@@ -32,14 +32,14 @@ public class ApiClient {
         return retrofit;
     }
 
-    public static RegisterService getRegister(){
-        RegisterService registerService = getRetrofit().create(RegisterService.class);
+    public static UserService getRegister(){
+        UserService registerService = getRetrofit().create(UserService.class);
 
         return registerService;
     }
 
-    public static LoginService getLogin(){
-        LoginService loginService = getRetrofit().create(LoginService.class);
-        return loginService;
+    public static UserService getLogin(){
+        UserService userService = getRetrofit().create(UserService.class);
+        return userService;
     }
 }

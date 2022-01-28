@@ -39,12 +39,13 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="25dp"
+                android:background="@drawable/border"
                 android:ems="10"
                 android:hint="Имя"
                 android:inputType="textPersonName"
-                android:textColor="#AFAFAF"
-                android:textColorHint="#AFAFAF"
-                tools:ignore="TouchTargetSizeCheck" />
+                android:padding="10dp"
+                android:singleLine="false"
+                android:textColorHint="#AFAFAF" />
 
             <EditText
                 android:id="@+id/etSecondName"
@@ -53,9 +54,11 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="15dp"
+                android:background="@drawable/border"
                 android:ems="10"
                 android:hint="Фамилия"
                 android:inputType="textPersonName"
+                android:padding="10dp"
                 android:textAllCaps="false"
                 android:textColor="#AFAFAF"
                 android:textColorHint="#AFAFAF"
@@ -68,9 +71,11 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="15dp"
+                android:background="@drawable/border"
                 android:ems="10"
                 android:hint="E-mail"
                 android:inputType="textWebEmailAddress"
+                android:padding="10dp"
                 android:textColor="#AFAFAF"
                 android:textColorHint="#AFAFAF"
                 tools:ignore="TouchTargetSizeCheck" />
@@ -82,9 +87,11 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="15dp"
+                android:background="@drawable/border"
                 android:ems="10"
                 android:hint="Пароль"
                 android:inputType="textPassword"
+                android:padding="10dp"
                 android:textColor="#AFAFAF"
                 android:textColorHint="#AFAFAF"
                 tools:ignore="TouchTargetSizeCheck" />
@@ -96,9 +103,11 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="15dp"
+                android:background="@drawable/border"
                 android:ems="10"
                 android:hint="Повторите пароль"
                 android:inputType="textPassword"
+                android:padding="10dp"
                 android:textColor="#AFAFAF"
                 android:textColorHint="#AFAFAF"
                 tools:ignore="TouchTargetSizeCheck" />
@@ -111,7 +120,9 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="15dp"
 
-                android:background="@color/RedText"
+                android:background="@drawable/border_red"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="10dp"
                 android:text="Зарегистрироваться"
                 tools:ignore="TextContrastCheck" />
 
@@ -123,7 +134,9 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="15dp"
-                android:backgroundTint="@color/fon"
+                android:background="@drawable/border"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="10dp"
                 android:singleLine="false"
                 android:text="У меня уже есть аккаунт"
                 android:textColor="@color/RedText"

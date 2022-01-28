@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/fon"
-    tools:context=".Common.SignInActivity">
+    tools:context=".SignInActivity">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -39,9 +39,11 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="65dp"
+                android:background="@drawable/border"
                 android:ems="10"
                 android:hint="E-mail"
                 android:inputType="textWebEmailAddress"
+                android:padding="10dp"
                 android:textColor="#AFAFAF"
                 android:textColorHint="#AFAFAF"
                 tools:ignore="TouchTargetSizeCheck" />
@@ -53,9 +55,11 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="15dp"
+                android:background="@drawable/border"
                 android:ems="10"
                 android:hint="Пароль"
                 android:inputType="textPassword"
+                android:padding="10dp"
                 android:textColor="#AFAFAF"
                 android:textColorHint="#AFAFAF"
                 tools:ignore="TouchTargetSizeCheck" />
@@ -67,8 +71,9 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="35dp"
-
-                android:background="@color/RedText"
+                android:background="@drawable/border_red"
+                android:fontFamily="@font/roboto_bold"
+                android:padding="10dp"
                 android:text="Войти"
                 tools:ignore="TextContrastCheck" />
 
@@ -79,7 +84,8 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="15dp"
-                android:backgroundTint="@color/fon"
+                android:background="@drawable/border"
+                android:fontFamily="@font/roboto_bold"
                 android:singleLine="false"
                 android:text="Регистрация"
                 android:textColor="@color/RedText"

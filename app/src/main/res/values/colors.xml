@@ -7,6 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="fon">#02479B</color>
+    <color name="fon">#FF02479B</color>
     <color name="RedText">#EF3A01</color>
+    <color name="border">#e5e5e5</color>
+    <color name="transparent">#00F43636</color>
 </resources>
